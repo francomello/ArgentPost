@@ -6409,6 +6409,8 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 .mb-4 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000f32;
   margin-bottom: 1.5rem !important;
 }
 .mb-5 {
