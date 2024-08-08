@@ -139,16 +139,17 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color:  #ceaa6a;
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 100px;
+
+    height: 100px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 95px;
+    height: 100px;
 }
 
 .fa{
@@ -185,7 +186,7 @@
     }
     .sticky-top.navbar-light {
         position: relative;
-        background: transparent;
+        background-color: black;
     }
 
     .navbar.navbar-expand-lg .navbar-toggler {
@@ -203,18 +204,18 @@
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--bs-dark);
+        color:  #cea96a62;
     }
 
     .navbar-light .navbar-brand img {
-        max-width: 150px;
-        max-height: 85px;
+        width: 180px;
+        height: 110px;
     }
 
     .scroll-to-bottom {
         width: 40px;
         height: 40px;
-        top: 93%;
+        top: 98%;
     }
 }
 
@@ -258,7 +259,7 @@
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--bs-primary);
+        background:  #ceaa6a;
         transition: .5s;
     }
 
@@ -273,7 +274,7 @@
         left: 50%;
         transform: translateX(-50%);
         border: 10px solid;
-        border-color: transparent transparent var(--bs-primary) transparent;
+        border-color: transparent transparent  #ceaa6a transparent;
         opacity: 0;
         transition: 0.5s;
     }
