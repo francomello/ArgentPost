@@ -185,13 +185,13 @@
     }
     .sticky-top.navbar-light {
         position: relative;
-        background: var(--bs-primary);
+        background: transparent;
     }
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        border: 1px solid #ceaa6a;
+        color: #ceaa6a;
     }
 
     .navbar-light .navbar-collapse {
@@ -214,7 +214,7 @@
     .scroll-to-bottom {
         width: 40px;
         height: 40px;
-        top: 82%;
+        top: 93%;
     }
 }
 
@@ -246,7 +246,8 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light);
+        background: transparent;
+        backdrop-filter: blur(10px);
         border: none;
     }
 
