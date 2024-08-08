@@ -507,6 +507,7 @@ progress {
 }
 .img-fluid {
   max-width: 100%;
+  border-radius: 30px;
   height: auto;
 }
 .img-thumbnail {
