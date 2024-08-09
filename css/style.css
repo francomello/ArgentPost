@@ -125,7 +125,7 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: var(--bs-white);
+    color:  #cea96a77;;
     font-size: 17px;
     font-weight: 400;
     outline: none;
@@ -134,7 +134,7 @@
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--bs-dark);
+    color:  #cea96a77;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -247,7 +247,7 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: transparent;
+        background-color: #000000b9;
         backdrop-filter: blur(10px);
         border: none;
     }
@@ -466,7 +466,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 0 60px 0;
+    padding: 250px 0 150px 0;
     transition: 0.5s;
 }
 
