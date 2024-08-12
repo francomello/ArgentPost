@@ -237,11 +237,6 @@
         width: 100%;
         top: 0;
         left: 0;
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 1px solid;
-        border-left: 0;
-        border-style: dotted;
         z-index: 999;
     }
     
